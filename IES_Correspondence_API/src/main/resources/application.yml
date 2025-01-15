@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: IES_Correspondence_API
+aws:
+    accessKey: 
+    secretKey: 
+    bucketName: noticefiles
