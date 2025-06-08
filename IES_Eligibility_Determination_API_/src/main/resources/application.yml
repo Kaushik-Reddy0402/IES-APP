@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: IES_Eligibility_Determination_API
+  datasource:
+    username: root
+    password: Root@0402
+    url: jdbc:mysql://localhost:3306/project
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081/
+server:
+  port: 8085 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  level:
+    root: info

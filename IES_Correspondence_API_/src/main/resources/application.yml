@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: IES_Correspondence_API
+  datasource:
+    username: root
+    password: Root@0402
+    url: jdbc:mysql://localhost:3306/project
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: juturukaushikreddy@gmail.com
+    password: xdsh txkl hmpf rlwm
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 9095
+
