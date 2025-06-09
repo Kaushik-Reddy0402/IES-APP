@@ -92,7 +92,7 @@ public class CoServiceImpl implements CoService {
 	private boolean updateProcessedRecord(NoticeEntity noticeEntity, String url) {
 		noticeEntity.setNoticeStatus("COMPLETED");
 	    noticeEntity.setNoticeUrl(url);
-		noticeRepo.save(noticeEntity); // Assuming you have a NoticeRepository
+		noticeRepo.save(noticeEntity); 
 		return true;
 	}
 
